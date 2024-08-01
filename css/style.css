@@ -107,7 +107,7 @@ main .tit {
 
 #about .descript {
   
-  font-size: 28px;
+  font-size: 23px;
   line-height: 1.2;
 }
 
@@ -202,5 +202,12 @@ footer {
   align-items: center;
 }
 
-.langChange {
+.btnLang{
+  display: flex;
+  justify-content: right;
 }
+.langChange {
+  display: flex;
+  justify-content: right;
+}
+
