@@ -16,6 +16,7 @@ body {
   font-family: "Pretendard"; /* 전체 프로젝트에서 사용할 폰트 설정 */
   letter-spacing: -0.2px;
   color: #47494d;
+  width: 100vw;
 }
 
 a {
