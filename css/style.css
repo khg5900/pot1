@@ -8,6 +8,7 @@
 
 html {
   scroll-behavior: smooth; /* 부드러운 스크롤 */
+  gap: 0px;
 }
 
 body {
@@ -52,10 +53,10 @@ h1 img {
 }
 
 main section {
-  padding: 200px 20px;
+  padding: 50px 20px;
   width: 100%;
   margin: auto;
-  min-height: 100vh;
+  /* min-height: 100vh; */
 }
 
 #home {
@@ -67,12 +68,12 @@ main section {
 }
 
 #home .tit-descript {
-  font-size: 80px;
-  line-height: 1.2;
+  font-size: 50px;
+  line-height: 2;
 }
 
 #home .tit-descript strong {
-  font-size: 120px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 1;
 }
@@ -104,7 +105,8 @@ main .tit {
   text-align: center;
 }
 
-#about p.descript {
+#about .descript {
+  
   font-size: 28px;
   line-height: 1.2;
 }
