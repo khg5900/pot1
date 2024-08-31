@@ -69,12 +69,12 @@ main section {
 }
 
 #home .tit-descript {
-  font-size: 50px;
+  font-size: 20px;
   line-height: 2;
 }
 
 #home .tit-descript strong {
-  font-size: 60px;
+  font-size: 20px;
   font-weight: 700;
   line-height: 1;
 }
@@ -107,7 +107,6 @@ main .tit {
 }
 
 #about .descript {
-  
   font-size: 23px;
   line-height: 1.2;
 }
@@ -203,7 +202,7 @@ footer {
   align-items: center;
 }
 
-.btnLang{
+.btnLang {
   display: flex;
   justify-content: right;
 }
@@ -211,4 +210,3 @@ footer {
   display: flex;
   justify-content: right;
 }
-
