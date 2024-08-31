@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>POT_HG</title>
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
@@ -22,14 +22,16 @@
     </header>
     <main>
       <section id="home">
-        <h2 class="tit-descript">
-          안녕하세요. <br />
-          <strong>
-            프론트엔드 개발자 <br />
-            김형근입니다. <br />
-          </strong>
-        </h2>
-        <img class="profile-img" src="#" alt="본인 사진" />
+        <div class="down">
+          <img class="profile-img" src="./images/dog2.jfif" alt="본인 사진" />
+          <h2 class="tit-descript">
+            안녕하세요. <br />
+            <strong>
+              프론트엔드 개발자 <br />
+              김형근입니다. <br />
+            </strong>
+          </h2>
+        </div>
         <a class="scroll-link" href="#about"
           ><img src="./images/down.svg" alt="아래로 스크롤 이동 버튼"
         /></a>
@@ -38,10 +40,10 @@
       <section id="about">
         <h2 class="tit">About</h2>
         <div class="descript">
-          제주대학교 컴퓨터공학 전공 <br>
-          
+          제주대학교 컴퓨터공학 전공 <br />
+
           <br />
-       </div>
+        </div>
       </section>
 
       <section id="activity">
@@ -49,35 +51,32 @@
         <ul class="activ-list">
           <li>
             <strong class="activ-tit">프로젝트 1</strong>
-            <div class="activ-descript">해당 도시 날씨 웹사이트</div>
+            <div class="activ-descript">
+              해당 도시 날씨 웹사이트 오픈 api를 활용하여 JSON파일을 응답받고,
+              필요한 정보를 웹사이트를 사용하는 사람에게 보여 줄 수 있도록 표현.
+            </div>
           </li>
           <li>
             <strong class="activ-tit"></strong>
-            <div class="activ-descript">
-              
-            </div>
+            <div class="activ-descript"></div>
           </li>
-          
         </ul>
         <ul class="activ-img-list">
           <li>
             <a href="./weather/index.html">
-              <img class="sup" src="#" alt="프로젝트 1" />
+              <img class="project1" src="./images/2.jpg" alt="프로젝트 1" />
             </a>
           </li>
           <li>
             <img class="work" src="#" alt="프로젝트 2" />
           </li>
-          
         </ul>
       </section>
 
       <section id="contact">
         <div class="contact-cont">
           <h2 class="tit">Contact</h2>
-          <div class="descript">
-            
-          </div>
+          <div class="descript"></div>
           <div class="contact-box">
             <div class="mail-box">
               <img src="./images/mail.svg" alt="메일 보내기" />
@@ -93,8 +92,8 @@
     </main>
     <footer>
       <div class="btnLang">
-      <button class="langChange">lang-change</button>
-    </div>
+        <button class="langChange">lang-change</button>
+      </div>
       <small></small>
     </footer>
   </body>
