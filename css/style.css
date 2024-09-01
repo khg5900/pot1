@@ -252,3 +252,8 @@ footer {
 .hidden4 {
   display: none;
 }
+
+.btn-style{
+  display: flex;
+  gap: 20px;
+}

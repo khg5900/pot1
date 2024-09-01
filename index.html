@@ -25,20 +25,20 @@
         <div class="down">
           <img class="profile-img" src="./images/dog2.jfif" alt="본인 사진" />
           <div class="tit-descript" >
-            <div class="ko1">
-            안녕하세요. <br />
+            <div id="ko1">
+              <p>안녕하세요.</p>
             <strong>
-              프론트엔드 개발자 <br />
-              김형근입니다. <br />
+              <p>프론트엔드 개발자</p> 
+              <p>김형근입니다.</p> 
             </strong>
           </div>
           </div>
           <div class="tit-descript" >
-            <div class="hidden1" class="jp1">
-            始めまして。<br />
+            <div class="hidden1" id="jp1">
+            <p>始めまして。</p>
             <strong>
-              フロントエンド開発者 <br />
-              キム·ヒョングンと申します。 <br />
+            <p> フロントエンド開発者 </p>
+            <p> キム·ヒョングンと申します。 </p>
             </strong>
           </div>
           </div>
@@ -51,7 +51,7 @@
       <section id="about">
         <h2 class="tit">About</h2>
         <div class="descript" >
-          <div class="ko2">
+          <div id="ko2">
           제주대학교 컴퓨터공학 전공 <br />
           <br>
           html css js
@@ -59,7 +59,7 @@
           </div>
         </div>
         <div class="descript" >
-          <div class="hidden2" class="jp2">
+          <div class="hidden2" id="jp2">
           済州大学 コンピューター工学部 <br />
           <br>
           html css js
@@ -74,11 +74,11 @@
           <li>
             <strong class="activ-tit">PROJECT 1</strong>
             <div class="activ-descript">
-              <div class="ko3">
+              <div id="ko3">
               해당 도시 날씨 웹사이트 오픈 api를 활용하여 JSON파일을 응답받고,
               필요한 정보를 웹사이트를 사용하는 사람에게 보여 줄 수 있도록 표현.
             </div>
-            <div class="hidden3" class="jp3">
+            <div class="hidden3" id="jp3">
               該当都市の天気ウェブサイトのオープンapiを活用して、JSONファイルの応答を受け付けます、
               必要な情報をウェブサイトを使用する人に見せるように表現します。
             </div>
@@ -93,11 +93,11 @@
           <li>
             <strong class="activ-tit">PROJECT 2</strong>
             <div class="activ-descript">
-              <div class="ko4">
+              <div id="ko4">
                 자료구조 중 스택구조를 localstorage를 활용하여 표현했습니다.
               </div>
-              <div class="hidden4" class="jp4">
-                자료구조 중 스택구조를 localstorage를 활용하여 표현했습니다.
+              <div class="hidden4" id="jp4">
+                資料構造のうちスタック構造をlocalstorageを活用して表現しました。
               </div>
             </div>
             <div class="activ-img-list">
@@ -130,13 +130,14 @@
     <footer>
       <div class="btn-style">
       <div class="jpLang">
-        <button class="jp-change">japanese</button>
+        <button id="jp-change">japanese</button>
       </div>
       <div class="koLang">
-        <button class="ko-change">korean</button>
+        <button id="ko-change">korean</button>
       </div>
     </div>
       <small></small>
     </footer>
+    <script src="./main.js"></script>
   </body>
 </html>
