@@ -24,13 +24,24 @@
       <section id="home">
         <div class="down">
           <img class="profile-img" src="./images/dog2.jfif" alt="본인 사진" />
-          <h2 class="tit-descript">
+          <div class="tit-descript" >
+            <div class="ko1">
             안녕하세요. <br />
             <strong>
               프론트엔드 개발자 <br />
               김형근입니다. <br />
             </strong>
-          </h2>
+          </div>
+          </div>
+          <div class="tit-descript" >
+            <div class="hidden1" class="jp1">
+            始めまして。<br />
+            <strong>
+              フロントエンド開発者 <br />
+              キム·ヒョングンと申します。 <br />
+            </strong>
+          </div>
+          </div>
         </div>
         <a class="scroll-link" href="#about"
           ><img src="./images/down.svg" alt="아래로 스크롤 이동 버튼"
@@ -39,10 +50,21 @@
 
       <section id="about">
         <h2 class="tit">About</h2>
-        <div class="descript">
+        <div class="descript" >
+          <div class="ko2">
           제주대학교 컴퓨터공학 전공 <br />
-
+          <br>
+          html css js
           <br />
+          </div>
+        </div>
+        <div class="descript" >
+          <div class="hidden2" class="jp2">
+          済州大学 コンピューター工学部 <br />
+          <br>
+          html css js
+          <br />
+          </div>  
         </div>
       </section>
 
@@ -52,9 +74,13 @@
           <li>
             <strong class="activ-tit">PROJECT 1</strong>
             <div class="activ-descript">
-              <div>
+              <div class="ko3">
               해당 도시 날씨 웹사이트 오픈 api를 활용하여 JSON파일을 응답받고,
               필요한 정보를 웹사이트를 사용하는 사람에게 보여 줄 수 있도록 표현.
+            </div>
+            <div class="hidden3" class="jp3">
+              該当都市の天気ウェブサイトのオープンapiを活用して、JSONファイルの応答を受け付けます、
+              必要な情報をウェブサイトを使用する人に見せるように表現します。
             </div>
             <div class="activ-img-list">
               <br>
@@ -67,7 +93,12 @@
           <li>
             <strong class="activ-tit">PROJECT 2</strong>
             <div class="activ-descript">
-              <div>자료구조 중 스택구조를 localstorage를 활용하여 표현했습니다.</div>
+              <div class="ko4">
+                자료구조 중 스택구조를 localstorage를 활용하여 표현했습니다.
+              </div>
+              <div class="hidden4" class="jp4">
+                자료구조 중 스택구조를 localstorage를 활용하여 표현했습니다.
+              </div>
             </div>
             <div class="activ-img-list">
               <a href="./localStack/index.html">
@@ -76,9 +107,6 @@
             </div>
           </li>
         </ul>
-        
-      
-          
         
       </section>
 
@@ -100,9 +128,14 @@
       </section>
     </main>
     <footer>
-      <div class="btnLang">
-        <button class="langChange">lang-change</button>
+      <div class="btn-style">
+      <div class="jpLang">
+        <button class="jp-change">japanese</button>
       </div>
+      <div class="koLang">
+        <button class="ko-change">korean</button>
+      </div>
+    </div>
       <small></small>
     </footer>
   </body>

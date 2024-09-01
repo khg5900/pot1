@@ -2,13 +2,21 @@
 
 @import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.8/dist/web/static/pretendard.css");
 
+
+
 * {
   box-sizing: border-box; /* 요소의 width에 여백을 포함 */
 }
 
 html {
   scroll-behavior: smooth; /* 부드러운 스크롤 */
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */ 
+  scrollbar-width: none; /* 파이어폭스 */ 
   /* gap: 0px; */
+}
+
+html::-webkit-scrollbar {
+  display: none; /* 크롬, 사파리, 오페라, 엣지 */ 
 }
 
 body {
@@ -229,9 +237,18 @@ footer {
   justify-content: right;
 }
 
-.scroll::-webkit-scrollbar {
+.hidden1 {
   display: none;
 }
 
-#project1 {
+.hidden2 {
+  display: none;
+}
+
+.hidden3 {
+  display: none;
+}
+
+.hidden4 {
+  display: none;
 }
