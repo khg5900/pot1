@@ -290,3 +290,7 @@ footer {
   width: 50px;
   height: 35px;
 }
+
+.hidden5 {
+  display: none;
+}
