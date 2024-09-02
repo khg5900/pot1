@@ -254,19 +254,39 @@ footer {
 }
 
 .btn-style {
-  /* display: flex;
+  display: flex;
+
+  flex-direction: column;
   gap: 20px;
-  flex-direction: column; */
   position: fixed;
   right: 30px;
   bottom: 30px;
 }
 
-.jpLang {
+#jp-change {
   /* display: flex;
   justify-content: end; */
   /* position: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  width: 90px;
+  height: 90px;
 }
-.koLang {
+#ko-change {
   /* position: fixed; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: white;
+  width: 90px;
+  height: 90px;
+}
+
+.flag {
+  width: 70px;
+  height: 50px;
 }
